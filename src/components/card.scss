@@ -1,0 +1,23 @@
+.card-wrapper {
+  border: none;
+  margin-bottom: 2em;
+
+  .card-image {
+    height: 200px;
+  }
+
+  .card-body {
+    background: linear-gradient(to bottom, #412397, #1e0c50);
+
+    .card-body-title {
+      color: #fff;
+    }
+
+    .card-body-subtitle {
+      color: #d3d3d3;
+      font-weight: 200;
+      text-overflow: ellipsis;
+      margin-bottom: 2em;
+    }
+  }
+}

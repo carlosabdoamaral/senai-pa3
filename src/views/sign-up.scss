@@ -1,0 +1,51 @@
+.sign-up-view-content {
+  width: 50dvw;
+
+  .text-muted {
+    color: #898989 !important;
+    font-weight: 300;
+  }
+
+  button {
+    border-radius: 0 !important;
+    background-color: #4e31a1;
+    border: #4e31a1;
+    height: 60px;
+    width: 100%;
+  }
+
+  button:not(.submit-form) {
+    background-color: transparent;
+    border: 1px solid #4e31a1 !important;
+  }
+
+  ::placeholder {
+    color: #898989 !important;
+  }
+
+  .sign-up-view-inputs {
+    input {
+      border-radius: 0 !important;
+      background-color: #d9d9d936;
+      border: none;
+      height: 60px;
+      color: #fff;
+      width: 100% !important;
+    }
+  }
+}
+
+.form-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.sign-up-view-title {
+  margin-bottom: 2em;
+
+  h1 {
+    font-family: "Fenix";
+  }
+}

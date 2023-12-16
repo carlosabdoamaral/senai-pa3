@@ -1,0 +1,56 @@
+.sign-in-view-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .sign-in-view-content {
+    width: 30dvw;
+
+    h1 {
+      font-family: "Fenix";
+    }
+
+    a {
+      color: #a17fff;
+    }
+
+    .sign-in-view-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+
+      .sign-in-view-form-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+      }
+
+      input {
+        border-radius: 0 !important;
+        background-color: #d9d9d936;
+        border: none;
+        height: 60px;
+        color: #fff;
+      }
+
+      button {
+        border-radius: 0 !important;
+        background-color: #4e31a1;
+        border: #4e31a1;
+        height: 40px;
+        width: 100%;
+      }
+
+      button:not(.submit-form) {
+        background-color: transparent;
+        border: 1px solid #4e31a1 !important;
+      }
+
+      ::placeholder {
+        color: #898989 !important;
+      }
+    }
+  }
+}

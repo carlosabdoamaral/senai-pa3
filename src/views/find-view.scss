@@ -1,0 +1,37 @@
+.find-view-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3em 0;
+
+  ::placeholder {
+    color: #fff !important;
+  }
+
+  h1 {
+    font-family: 'Fenix';
+    margin-bottom: 1em;
+    text-align: center;
+    
+    span {
+      font-family: 'Fenix';
+      color: #31a161;
+    }
+  }
+  
+
+  .find-view-input {
+    width: 30dvw;
+    border-radius: 100em !important;
+    background-color: transparent;
+    font-weight: 200;
+    color: #fff !important;
+    padding: 1em;
+  }
+}
+
+.card-list {
+  width: 75dvw;
+  margin-top: 4em;
+}
